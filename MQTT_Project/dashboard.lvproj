@@ -12,17 +12,17 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="New" Type="Folder">
-			<Item Name="My_Server_v1.vi" Type="VI" URL="../All_New/My_Server_v1.vi"/>
+		<Item Name="1227" Type="Folder" URL="../1227">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="LVMQTT-master" Type="Folder" URL="../LVMQTT-master">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Broker.vi" Type="VI" URL="../MQTT_Project/Broker.vi"/>
-		<Item Name="Client_v1.vi" Type="VI" URL="../New/Client_v1.vi"/>
-		<Item Name="My_Client.vi" Type="VI" URL="../My_Client.vi"/>
+		<Item Name="My_Client.vi" Type="VI" URL="../MQTT_Project/My_Client.vi"/>
 		<Item Name="My_Server.vi" Type="VI" URL="../My_Server.vi"/>
 		<Item Name="My_Subscript.vi" Type="VI" URL="../My_Subscript.vi"/>
 		<Item Name="sda.lvlib" Type="Library" URL="../sda.lvlib"/>
-		<Item Name="Server_v1.vi" Type="VI" URL="../New/Server_v1.vi"/>
-		<Item Name="Sub_client_v1.vi" Type="VI" URL="../New/Sub_client_v1.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
