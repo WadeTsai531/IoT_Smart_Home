@@ -14,6 +14,7 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Final_v1.vi" Type="VI" URL="../Final_v1.vi"/>
+		<Item Name="mqtt_data_test.vi" Type="VI" URL="../mqtt_data_test.vi"/>
 		<Item Name="table_test.vi" Type="VI" URL="../table_test.vi"/>
 		<Item Name="temperature_test.vi" Type="VI" URL="../temperature_test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
